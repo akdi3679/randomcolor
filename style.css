@@ -1,0 +1,35 @@
+/* Style pour le conteneur principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 20px;
+  }
+  
+  /* Style pour la boîte de couleur */
+  #color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc; /* Couleur de fond par défaut */
+    margin-bottom: 20px;
+    border: 2px solid #000;
+  }
+  
+  /* Style pour le bouton */
+  #change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  #change-color-btn:hover {
+    background-color: #45a049;
+  }
+  
